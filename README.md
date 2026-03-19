@@ -31,16 +31,3 @@ A virtual machine that simulates the processor and memory to execute the linked 
 * **Language:** C++ (Standard Template Library used for robust data structures).
 * **Build System:** GNU Make.
 * **Architecture:** Custom architecture specified by the project requirements (incorporating standard RISC/CISC concepts).
-
-## Getting Started
-
-### Prerequisites
-* A standard C++ compiler (e.g., `g++`)
-* `make` utility
-
-### Building the Toolchain
-Clone the repository and compile each component using the provided Makefile. Because the build targets are separated, you need to build them individually:
-
-1. **Build the Assembler:**
-   ```bash
-   make
