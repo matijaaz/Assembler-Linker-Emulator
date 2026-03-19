@@ -39,6 +39,8 @@ A virtual machine that simulates the processor and memory to execute the linked 
 * `make` utility
 
 ### Building the Toolchain
-Clone the repository and compile the components using the provided Makefile:
-```bash
-make
+Clone the repository and compile each component using the provided Makefile. Because the build targets are separated, you need to build them individually:
+
+1. **Build the Assembler:**
+   ```bash
+   make
