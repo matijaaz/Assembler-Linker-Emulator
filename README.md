@@ -10,9 +10,9 @@ The toolchain bridges the gap between human-readable assembly code and machine-e
 
 ### 1. The Assembler
 Translates custom assembly language source files (`.s`) into relocatable object files (`.o`).
-* **Two-Pass Assembly:** Implements a multi-pass approach to correctly resolve forward references and compute memory offsets.
+* **One-Pass Assembly:** Implements a one-pass approach to correctly resolve forward references and compute memory offsets.
 * **Symbol Table & Relocations:** Generates comprehensive symbol tables and relocation records for data and code sections, allowing external references to be resolved later by the linker.
-* **Directives & Sections:** Fully supports section definitions (e.g., text, data, rodata) and assembler directives for data allocation and symbol exports/imports.
+* **Directives & Sections:** Supports section definitions (e.g., text, data) and assembler directives for data allocation and symbol exports/imports.
 
 ### 2. The Linker
 Combines multiple object files into a single, executable memory image (hex format).
